@@ -2,10 +2,18 @@ body
 {
     color: #333;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 10px;
     font-size: 16px;
+}
+#cabecera{
+    background: #33A   ;
+    box-shadow: 0px 5px 30px 0px rgb(0, 0, 0, 0.75);
+    color: white;
+    margin: 0;
+    padding: 0.5em;
+    font-weight: bold;
+
 }
  #container{
     width: 70%;
@@ -17,4 +25,14 @@ body
 
  #container h1{
     font-size: 20px;
+ }
+ #container #tagline{
+    padding: 1em 0 0 0;
+    font-weight: normal;
+    font-size:0.8em ;
+}
+ #post{
+    
+    padding: 1em;
+
  }
